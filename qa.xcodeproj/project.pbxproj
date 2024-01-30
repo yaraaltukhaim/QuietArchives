@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		42E046C12B69223A00254985 /* forestScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 42E046C02B69223A00254985 /* forestScene.sks */; };
 		5C971BF52B6902D900E78452 /* DiaryOfAn8BitMage-lYDD.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5C971BF42B6902D900E78452 /* DiaryOfAn8BitMage-lYDD.ttf */; };
 		5C971BF62B6902D900E78452 /* DiaryOfAn8BitMage-lYDD.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5C971BF42B6902D900E78452 /* DiaryOfAn8BitMage-lYDD.ttf */; };
 		5C971BF72B6902D900E78452 /* DiaryOfAn8BitMage-lYDD.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5C971BF42B6902D900E78452 /* DiaryOfAn8BitMage-lYDD.ttf */; };
@@ -86,6 +87,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		42E046C02B69223A00254985 /* forestScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = forestScene.sks; sourceTree = "<group>"; };
 		5C971BF42B6902D900E78452 /* DiaryOfAn8BitMage-lYDD.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DiaryOfAn8BitMage-lYDD.ttf"; sourceTree = "<group>"; };
 		5C971BF82B6902EE00E78452 /* KindlyRewind-BOon.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KindlyRewind-BOon.ttf"; sourceTree = "<group>"; };
 		5C971C0A2B69046B00E78452 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
@@ -204,6 +206,7 @@
 		5CFAC00A2B67BBC2007BB7EF /* qa */ = {
 			isa = PBXGroup;
 			children = (
+				42E046C02B69223A00254985 /* forestScene.sks */,
 				5C971C0A2B69046B00E78452 /* Info.plist */,
 				5CFAC00B2B67BBC2007BB7EF /* AppDelegate.swift */,
 				5CFAC00D2B67BBC2007BB7EF /* GameScene.sks */,
@@ -346,6 +349,7 @@
 				5CED08F72B68E5BB00E84CC1 /* onboarding5.gif in Resources */,
 				5CED08F92B68E5CC00E84CC1 /* onboarding6.gif in Resources */,
 				5CED08F22B68E58600E84CC1 /* onboarding2.gif in Resources */,
+				42E046C12B69223A00254985 /* forestScene.sks in Resources */,
 				5C971BF92B6902EE00E78452 /* KindlyRewind-BOon.ttf in Resources */,
 				5C971C192B69070900E78452 /* librarypuzzle.mp3 in Resources */,
 				5CFAC0172B67BBC2007BB7EF /* Main.storyboard in Resources */,
@@ -602,7 +606,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = QY3XBP7588;
+				DEVELOPMENT_TEAM = AV5MAF76AM;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = qa/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -631,7 +635,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = QY3XBP7588;
+				DEVELOPMENT_TEAM = AV5MAF76AM;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = qa/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
