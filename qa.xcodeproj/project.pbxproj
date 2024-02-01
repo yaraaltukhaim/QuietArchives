@@ -10,9 +10,9 @@
 		5C971BF52B6902D900E78452 /* DiaryOfAn8BitMage-lYDD.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5C971BF42B6902D900E78452 /* DiaryOfAn8BitMage-lYDD.ttf */; };
 		5C971BF62B6902D900E78452 /* DiaryOfAn8BitMage-lYDD.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5C971BF42B6902D900E78452 /* DiaryOfAn8BitMage-lYDD.ttf */; };
 		5C971BF72B6902D900E78452 /* DiaryOfAn8BitMage-lYDD.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5C971BF42B6902D900E78452 /* DiaryOfAn8BitMage-lYDD.ttf */; };
-		5C971BF92B6902EE00E78452 /* KindlyRewind-BOon.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5C971BF82B6902EE00E78452 /* KindlyRewind-BOon.ttf */; };
-		5C971BFA2B6902EE00E78452 /* KindlyRewind-BOon.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5C971BF82B6902EE00E78452 /* KindlyRewind-BOon.ttf */; };
-		5C971BFB2B6902EE00E78452 /* KindlyRewind-BOon.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5C971BF82B6902EE00E78452 /* KindlyRewind-BOon.ttf */; };
+		5C971BF92B6902EE00E78452 /* KindlyRewind.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5C971BF82B6902EE00E78452 /* KindlyRewind.ttf */; };
+		5C971BFA2B6902EE00E78452 /* KindlyRewind.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5C971BF82B6902EE00E78452 /* KindlyRewind.ttf */; };
+		5C971BFB2B6902EE00E78452 /* KindlyRewind.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5C971BF82B6902EE00E78452 /* KindlyRewind.ttf */; };
 		5C971BFC2B69031800E78452 /* onboarding3.gif in Resources */ = {isa = PBXBuildFile; fileRef = 5CED08EF2B68E56700E84CC1 /* onboarding3.gif */; };
 		5C971BFD2B69031800E78452 /* onboarding3.gif in Resources */ = {isa = PBXBuildFile; fileRef = 5CED08EF2B68E56700E84CC1 /* onboarding3.gif */; };
 		5C971BFE2B69031E00E78452 /* onboarding4.gif in Resources */ = {isa = PBXBuildFile; fileRef = 5CED08F42B68E5AA00E84CC1 /* onboarding4.gif */; };
@@ -66,6 +66,10 @@
 		5CFAC0262B67BBC3007BB7EF /* qaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CFAC0252B67BBC3007BB7EF /* qaTests.swift */; };
 		5CFAC0302B67BBC3007BB7EF /* qaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CFAC02F2B67BBC3007BB7EF /* qaUITests.swift */; };
 		5CFAC0322B67BBC3007BB7EF /* qaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CFAC0312B67BBC3007BB7EF /* qaUITestsLaunchTests.swift */; };
+		B50B1F232B69BFC000F6A4EC /* mainPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50B1F222B69BFC000F6A4EC /* mainPage.swift */; };
+		B50B1F252B6A769B00F6A4EC /* splashPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50B1F242B6A769B00F6A4EC /* splashPage.swift */; };
+		B50B1F272B6A774800F6A4EC /* settingPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50B1F262B6A774800F6A4EC /* settingPage.swift */; };
+		B50B1F292B6A7E7300F6A4EC /* creditsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50B1F282B6A7E7300F6A4EC /* creditsPage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -87,7 +91,7 @@
 
 /* Begin PBXFileReference section */
 		5C971BF42B6902D900E78452 /* DiaryOfAn8BitMage-lYDD.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DiaryOfAn8BitMage-lYDD.ttf"; sourceTree = "<group>"; };
-		5C971BF82B6902EE00E78452 /* KindlyRewind-BOon.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KindlyRewind-BOon.ttf"; sourceTree = "<group>"; };
+		5C971BF82B6902EE00E78452 /* KindlyRewind.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = KindlyRewind.ttf; sourceTree = "<group>"; };
 		5C971C0A2B69046B00E78452 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		5C971C0C2B6906E200E78452 /* onboarding.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = onboarding.wav; sourceTree = "<group>"; };
 		5C971C102B6906F600E78452 /* normalforest.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = normalforest.wav; sourceTree = "<group>"; };
@@ -117,6 +121,10 @@
 		5CFAC02B2B67BBC3007BB7EF /* qaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = qaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CFAC02F2B67BBC3007BB7EF /* qaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = qaUITests.swift; sourceTree = "<group>"; };
 		5CFAC0312B67BBC3007BB7EF /* qaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = qaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B50B1F222B69BFC000F6A4EC /* mainPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainPage.swift; sourceTree = "<group>"; };
+		B50B1F242B6A769B00F6A4EC /* splashPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = splashPage.swift; sourceTree = "<group>"; };
+		B50B1F262B6A774800F6A4EC /* settingPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = settingPage.swift; sourceTree = "<group>"; };
+		B50B1F282B6A7E7300F6A4EC /* creditsPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = creditsPage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,7 +155,7 @@
 		5C971BF32B69027500E78452 /* fonts */ = {
 			isa = PBXGroup;
 			children = (
-				5C971BF82B6902EE00E78452 /* KindlyRewind-BOon.ttf */,
+				5C971BF82B6902EE00E78452 /* KindlyRewind.ttf */,
 				5C971BF42B6902D900E78452 /* DiaryOfAn8BitMage-lYDD.ttf */,
 			);
 			path = fonts;
@@ -216,6 +224,10 @@
 				5C971BF32B69027500E78452 /* fonts */,
 				5CED08F32B68E58E00E84CC1 /* GIFS */,
 				5CFAC01A2B67BBC3007BB7EF /* LaunchScreen.storyboard */,
+				B50B1F242B6A769B00F6A4EC /* splashPage.swift */,
+				B50B1F222B69BFC000F6A4EC /* mainPage.swift */,
+				B50B1F262B6A774800F6A4EC /* settingPage.swift */,
+				B50B1F282B6A7E7300F6A4EC /* creditsPage.swift */,
 			);
 			path = qa;
 			sourceTree = "<group>";
@@ -346,7 +358,7 @@
 				5CED08F72B68E5BB00E84CC1 /* onboarding5.gif in Resources */,
 				5CED08F92B68E5CC00E84CC1 /* onboarding6.gif in Resources */,
 				5CED08F22B68E58600E84CC1 /* onboarding2.gif in Resources */,
-				5C971BF92B6902EE00E78452 /* KindlyRewind-BOon.ttf in Resources */,
+				5C971BF92B6902EE00E78452 /* KindlyRewind.ttf in Resources */,
 				5C971C192B69070900E78452 /* librarypuzzle.mp3 in Resources */,
 				5CFAC0172B67BBC2007BB7EF /* Main.storyboard in Resources */,
 				5CFAC00E2B67BBC2007BB7EF /* GameScene.sks in Resources */,
@@ -380,7 +392,7 @@
 				5C971C122B6906F600E78452 /* normalforest.wav in Resources */,
 				5C971C1A2B69070900E78452 /* librarypuzzle.mp3 in Resources */,
 				5C971C062B69032700E78452 /* onboarding5.gif in Resources */,
-				5C971BFA2B6902EE00E78452 /* KindlyRewind-BOon.ttf in Resources */,
+				5C971BFA2B6902EE00E78452 /* KindlyRewind.ttf in Resources */,
 				5C971BFE2B69031E00E78452 /* onboarding4.gif in Resources */,
 				5C971C002B69032000E78452 /* onboarding7.gif in Resources */,
 				5C971BF62B6902D900E78452 /* DiaryOfAn8BitMage-lYDD.ttf in Resources */,
@@ -403,7 +415,7 @@
 				5C971C132B6906F600E78452 /* normalforest.wav in Resources */,
 				5C971C1B2B69070900E78452 /* librarypuzzle.mp3 in Resources */,
 				5C971C072B69032800E78452 /* onboarding5.gif in Resources */,
-				5C971BFB2B6902EE00E78452 /* KindlyRewind-BOon.ttf in Resources */,
+				5C971BFB2B6902EE00E78452 /* KindlyRewind.ttf in Resources */,
 				5C971BFF2B69031E00E78452 /* onboarding4.gif in Resources */,
 				5C971C012B69032100E78452 /* onboarding7.gif in Resources */,
 				5C971BF72B6902D900E78452 /* DiaryOfAn8BitMage-lYDD.ttf in Resources */,
@@ -418,9 +430,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B50B1F232B69BFC000F6A4EC /* mainPage.swift in Sources */,
 				5CFAC0122B67BBC2007BB7EF /* GameScene.swift in Sources */,
 				5CFAC0142B67BBC2007BB7EF /* GameViewController.swift in Sources */,
+				B50B1F272B6A774800F6A4EC /* settingPage.swift in Sources */,
 				5CFAC00C2B67BBC2007BB7EF /* AppDelegate.swift in Sources */,
+				B50B1F252B6A769B00F6A4EC /* splashPage.swift in Sources */,
+				B50B1F292B6A7E7300F6A4EC /* creditsPage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
