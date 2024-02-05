@@ -6,8 +6,9 @@
 //
 
 import SwiftUI
-
+import AVKit 
 struct splashPage: View {
+    
     var body: some View {
         ZStack{
             Image("background")

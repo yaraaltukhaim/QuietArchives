@@ -70,6 +70,7 @@
 		B50B1F252B6A769B00F6A4EC /* splashPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50B1F242B6A769B00F6A4EC /* splashPage.swift */; };
 		B50B1F272B6A774800F6A4EC /* settingPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50B1F262B6A774800F6A4EC /* settingPage.swift */; };
 		B50B1F292B6A7E7300F6A4EC /* creditsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50B1F282B6A7E7300F6A4EC /* creditsPage.swift */; };
+		B50B1F472B6E8B0B00F6A4EC /* gkjggj.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50B1F462B6E8B0B00F6A4EC /* gkjggj.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -125,6 +126,7 @@
 		B50B1F242B6A769B00F6A4EC /* splashPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = splashPage.swift; sourceTree = "<group>"; };
 		B50B1F262B6A774800F6A4EC /* settingPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = settingPage.swift; sourceTree = "<group>"; };
 		B50B1F282B6A7E7300F6A4EC /* creditsPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = creditsPage.swift; sourceTree = "<group>"; };
+		B50B1F462B6E8B0B00F6A4EC /* gkjggj.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gkjggj.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -192,6 +194,7 @@
 		5CFABFFF2B67BBC2007BB7EF = {
 			isa = PBXGroup;
 			children = (
+				B50B1F462B6E8B0B00F6A4EC /* gkjggj.swift */,
 				5CFAC00A2B67BBC2007BB7EF /* qa */,
 				5CFAC0242B67BBC3007BB7EF /* qaTests */,
 				5CFAC02E2B67BBC3007BB7EF /* qaUITests */,
@@ -433,6 +436,7 @@
 				B50B1F232B69BFC000F6A4EC /* mainPage.swift in Sources */,
 				5CFAC0122B67BBC2007BB7EF /* GameScene.swift in Sources */,
 				5CFAC0142B67BBC2007BB7EF /* GameViewController.swift in Sources */,
+				B50B1F472B6E8B0B00F6A4EC /* gkjggj.swift in Sources */,
 				B50B1F272B6A774800F6A4EC /* settingPage.swift in Sources */,
 				5CFAC00C2B67BBC2007BB7EF /* AppDelegate.swift in Sources */,
 				B50B1F252B6A769B00F6A4EC /* splashPage.swift in Sources */,

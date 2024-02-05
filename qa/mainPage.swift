@@ -6,8 +6,10 @@
 //
 
 import SwiftUI
+import AVFAudio
 
 struct mainPage: View {
+    @State var audioPlayer: AVAudioPlayer!
     var body: some View {
         
         
@@ -25,7 +27,7 @@ struct mainPage: View {
                 Button(){} label: {
                     Image("gear")
                         
-                }}.offset(x: -350, y: -129)
+                }}.offset(x: -320, y: -129)
                 
                 //
                 VStack{
@@ -49,8 +51,7 @@ struct mainPage: View {
                     }
                     
                 }
-        }
-        
+       }
     }
 }
 
